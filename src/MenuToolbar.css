@@ -1,0 +1,20 @@
+.menu-toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #e9ecef;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  min-width: 0;
+}
+.toolbar-left, .toolbar-right {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.toolbar-left {
+  text-align: left;
+}
+.toolbar-right {
+  text-align: right;
+}
